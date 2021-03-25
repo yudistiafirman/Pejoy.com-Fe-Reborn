@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Apps Descriptions 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- its an apps that sells a fashion products 
+- the products are located in various warehouses with different locations (this apps has many warehouses with different locations)
 
 ## Available Scripts
 
