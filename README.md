@@ -2,6 +2,7 @@
 
 - its an apps that sells a fashion products 
 - the products are located in various warehouses with different locations (this apps has many warehouses with different locations)
+-The stem stock that is displayed on the website is the total stock of all items in the warehouse
 
 ## Available Scripts
 
