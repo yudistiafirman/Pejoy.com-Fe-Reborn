@@ -1,0 +1,224 @@
+.right-side-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-box{
+    position: relative;
+    flex: 1;
+}
+
+.input-norm {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    background: transparent;
+}
+
+.input-valid {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 14px;
+    color: green;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid green;
+    outline: none;
+    background: transparent;
+}
+
+.input-notvalid {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 14px;
+    color: red;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid red;
+    outline: none;
+    background: transparent;
+}
+
+
+.input-box p {
+    position: absolute;
+    top: 48px;
+    right: 0;
+    color: red;
+}
+
+.input-box label {
+    position: absolute;
+    top:0;
+    left:0;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #000;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.right-side-container h6 {
+    font-size: 25px;
+    font-weight: bold;
+}
+.right-side-container p {
+    font-size: 12px;
+}
+
+.right-side-container .input-box input:focus ~ label{
+  top: -20px;
+  left: 0;
+  font-size: 10px;
+}
+
+.right-side-container .input-box .input-filed {
+    top: -20px;
+    left: 0;
+    font-size: 10px;
+}
+.right-side-container .input-box .input-filed-valid {
+    top: -20px;
+    left: 0;
+    font-size: 10px;
+    color: green;
+}
+.right-side-container .input-box .input-filed-notvalid {
+    top: -20px;
+    left: 0;
+    font-size: 10px;
+    color: red;
+}
+
+.aa-btn{
+    border: none;
+    border: 1px solid black;
+    background-color: #000;
+    color: #fff;
+    padding: 8px 30px;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+.aa-btn:hover{
+    border: 1px solid black;
+    background-color: #fff;
+    color: black;
+}
+.aa-btn:focus{
+    outline: none;
+}
+
+.social-auth {
+    display: flex;
+    padding: 15px 0;
+}
+
+.icon-social {
+    border: 0.5px solid gray;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.icon-in-form{
+    padding: 10px 0;
+    transition: 0.8s;
+    margin-right: 10px;
+    color: gray;
+}
+
+.icon-eye{
+    position: absolute;
+    padding: 10px 0;
+    right: 5px ;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+
+/* Left SIde */
+
+.banner-left-side {
+    height: 500px;
+    width: 500px;
+}
+
+.login-schema{
+    transform: translateX(-100%);
+    position: absolute;
+    right: 0;
+    opacity: 0;
+    transition: 500ms ease-in;
+}
+
+.login-schema-active{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.login-forgot-active{
+    transform: translateX(0);
+    transform: translateY(200%);
+    opacity: 0;
+}
+
+
+.signup-schema{
+    transform: translateX(0);
+    position: absolute;
+    right: 0;
+    opacity: 1;
+    transition: 500ms ease-in;
+}
+
+.signup-schema-active{
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.forgot-password{
+    transform: translateX(0);
+    transform: translateY(-200%);
+    position: absolute;
+    right: 0;
+    opacity: 0;
+    transition: 500ms ease-in;
+}
+
+.forgot-password-active{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.container-carousel-left{
+    background-color : white;
+    z-index: 2;
+    transition: 500ms ease-in;
+}
+
+@media (max-width: 575.98px) { 
+    .signup-schema{
+        position: relative;
+        right: 0;
+        opacity: 1;
+        transition: 500ms ease-in;
+    }
+    .container-carousel-left{
+        display: none;
+    }
+}

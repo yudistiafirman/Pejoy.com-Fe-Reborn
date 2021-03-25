@@ -1,0 +1,51 @@
+.container-list-product {
+    padding-top : 120px;
+    padding-bottom : 120px;
+}
+
+.container-banner {
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    margin-bottom : 60px;
+}
+
+.button-heart-list {
+    position : absolute;
+    bottom : 148px ;
+    left : 30px ;
+}
+.container-card-product {
+    height : 500px;
+    padding : 10px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom : 30px;
+}
+
+.filter-product{
+    padding-right : 30px; 
+    padding-top : 5px;
+    width : 270px; 
+}
+
+
+
+
+
+@media (max-width: 575.98px) { 
+    .button-heart-list {
+        bottom : 210px ;
+        left : 27px ;
+    }
+    .container-card-product {
+        margin-bottom : -30px;
+    }
+    .filter-product{
+        display: none;
+    }
+    .container-content-list{
+        justify-content: center;
+    }
+    
+ }

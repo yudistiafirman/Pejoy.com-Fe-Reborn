@@ -1,0 +1,132 @@
+.card-container {
+    border-radius: 10px;
+    /* padding: 20px 0; */
+    /* padding-bottom: 20px; */
+}
+.card-container:hover {
+    border-radius: 10;
+    box-shadow: 0px 0px 7px 0px rgba(173,173,173,1);
+    cursor: pointer;
+    position: 'absolute';
+}
+
+.container-image {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.image-card {
+    max-width: 100%;
+   
+    height : 'auto'; 
+    position: 'relative';
+    
+}
+
+
+.a-button {
+    border: 0.5px solid salmon;
+    width: fit-content;
+    padding: 1px 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: salmon;
+}
+
+.a-button-inner {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.a-button-inner:hover {
+    background-color: salmon;
+    color: cornsilk;
+}
+
+
+.a-button-text {
+    font-size: 12px;
+}
+
+.button-container {
+    /* margin: 10px 0; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.choice-varian-container {
+    padding : 10px;
+}
+
+.icon-varian {
+    margin : 0px 3px;
+}
+
+
+
+
+.alert-enter {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  .alert-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 300ms, transform 300ms;
+  }
+  .alert-exit {
+    opacity: 1;
+  }
+  .alert-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 300ms, transform 300ms;
+  }
+  
+
+
+/* pagination */
+
+
+
+.pagination {
+    margin: 15px auto;
+    display: flex;
+    list-style: none;
+    outline: none;
+  }
+  .pagination > .active > a{
+    background-color: #47ccde ;
+    border-color: #47ccde ;
+    color: #fff;
+  }
+  .pagination > li > a{
+    border: 1px solid gray ;
+    padding: 10px 15px;
+    outline: none;
+    cursor: pointer;
+  }
+  .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+    background-color: black ;
+    border-color: black;
+    outline: none ;
+  }
+  .pagination > li > a, .pagination > li > span{
+    color: #47ccde
+  }
+  .pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+    border-radius: unset
+  }
+
+
+  /* SORT */
+
+  .aa-option {
+      border: none;
+      font-size: 14px;
+  }
+  .aa-option:focus{
+      outline: none;
+  }

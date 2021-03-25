@@ -1,0 +1,78 @@
+.parent-image {
+    max-width: 100%;
+    height: 'auto';
+}
+
+.child-image {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.child-image-active {
+    box-shadow: 0px 0px 10px 1.5px rgba(52,52,52,0.5);
+    border-radius: 5px;
+}
+
+.more-color-image {
+    width: 50px;
+    height: 'auto';
+    margin: 0 5px;
+}
+
+.choice-size {
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.button-add-to-cart {
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.button-add-to-cart:hover {
+    background-color: white ;
+    color: black;
+}
+
+.button-add-to-cart-disable {
+    color: white;
+    background-color: lightgray;
+    cursor: not-allowed;
+}
+
+.container-tabs {
+    display: flex;
+}
+
+.aa-my-button {
+    border: none;
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-size: 16px;
+    height: 100%;
+    
+}
+.aa-my-button:hover{
+    background-color: white ;
+    color: black;
+}
+.aa-my-button:focus{
+    outline: none;
+}
+
+.aa-my-button-disabled{
+    border: none;
+    transition: 0.5s;
+    background-color: gray;
+    color: white;
+    width: 100%;
+    font-size: 16px;
+    height: 100%;
+    cursor: not-allowed;
+}

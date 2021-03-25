@@ -1,0 +1,116 @@
+.p-input-field{
+
+    width: 60%;
+    background-color: #ffffff;
+
+    height: 60px;
+    border-radius: 20px;
+
+
+    position: relative;
+   border:#e0e0e0 2px solid;
+}
+
+.p-input-field input {
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 200;
+    font-size: 1rem;
+    color: #333;
+    height: 100%;
+    width: 100%;
+    padding: 10px 0px 0px 13px;
+  }
+
+  .p-input-field label{
+  
+        position: absolute;
+        top:50%;
+        left:15px;
+        transform: translateY(-50%);
+        transition: all .8s ease;
+        font-size: 20px;
+        pointer-events: none;
+        color:  #4481eb;
+        font-weight: 500;
+    }
+
+    .p-input-field input:focus{
+        border: 1px solid #4481eb;
+        border-radius: 20px;
+        box-shadow:1px 1px 4px 4px rgba(92,99,105, .2);
+    
+    }
+    
+
+
+.p-input-field input:focus+label
+{
+    top:0;
+    font-size: 12px;
+    margin-top:10px;
+}
+
+.p-input-field input:valid+label{
+    top:0;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.input-blur{
+    
+    width: 60%;
+    background-color: #ffffff;
+
+    height: 60px;
+    border-radius: 20px;
+
+
+    position: relative;
+   border: #ff9b93 2px solid;
+}
+.input-blur input{
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 200;
+    font-size: 1rem;
+    color: #333;
+    height: 100%;
+    width: 100%;
+    padding: 10px 0px 0px 13px;
+}
+  
+    .input-blur label{
+        color:#f25b61;
+        position: absolute;
+        top:50%;
+        left:15px;
+        transform: translateY(-50%);
+        transition: all .8s ease;
+        font-size: 16px;
+        pointer-events: none;
+     
+        font-weight: 500;
+    }
+
+    .input-blur :focus{
+        
+        border-radius: 20px;
+        box-shadow:1px 1px 4px 4px rgba(92,99,105, .2);
+    }
+    
+    .input-blur input:focus+label
+{
+    top:0;
+    font-size: 12px;
+    margin-top:10px;
+}
+
+.input-blur input:valid+label{
+    top:0;
+    font-size: 12px;
+    margin-top: 10px;
+}

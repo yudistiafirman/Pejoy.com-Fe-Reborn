@@ -1,0 +1,1 @@
+export const UrlAPI = 'http://localhost:2000/'

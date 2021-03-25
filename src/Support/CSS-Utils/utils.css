@@ -1,0 +1,340 @@
+p {
+	margin: 0;
+	padding: 0;
+}
+
+:root{
+    --main-light : #0095da;
+    --main-dark : #007eb8;
+    --light : #fdfdfd;
+    --dark : #303841;
+    --secondary : #f37021;
+    --light-grey : #e4e3e3;
+    --dark-grey : #6c757d;
+    --info : #00b35e;
+    --danger : #fe4A49;
+}
+
+/* Background Color */
+
+.pa-bg-main-light{
+    background-color: var(--main-light);
+}
+
+.pa-bg-main-dark{
+    background-color: var(--main-dark);
+}
+
+.pa-bg-secondary{
+    background-color: var(--secondary);
+}
+
+.pa-bg-light{
+    background-color: var(--light);
+}
+
+.pa-bg-dark{
+    background-color: var(--dark);
+}
+
+.pa-bg-light-grey{
+    background-color: var(--light-grey);
+}
+
+.pa-bg-dark-grey{
+    background-color: var(--dark-grey);
+}
+
+.pa-bg-info{
+    background-color: var(--info);
+}
+
+.pa-bg-danger{
+    background-color: var(--danger);
+}
+
+/* Font Color */
+
+.pa-main-light{
+    color: var(--main-light)
+}
+
+.pa-main-dark{
+    color: var(--main-dark)
+}
+
+.pa-secondary{
+    color: var(--secondary)
+}
+
+.pa-light{
+    color: var(--light)
+}
+
+.pa-dark{
+    color: var(--dark)
+}
+
+.pa-light-grey{
+    color: var(--light-grey)
+}
+
+.pa-dark-grey{
+    color: var(--dark-grey)
+}
+
+.pa-info{
+    color: var(--info)
+}
+
+.pa-danger{
+    color: var(--danger)
+}
+
+/* Custom Font Size */
+
+.pa-font-size-10{
+    font-size: 10px;
+}
+
+.pa-font-size-12{
+    font-size: 12px;
+}
+
+.pa-font-size-15{
+    font-size: 14px;
+}
+
+.pa-font-size-16{
+    font-size: 16px;
+}
+
+.pa-font-size-18{
+    font-size: 18px;
+}
+
+.pa-font-size-20{
+    font-size: 20px;
+}
+
+.pa-font-size-25{
+    font-size: 25px;
+}
+
+.pa-font-size-30{
+    font-size: 30px;
+}
+
+.pa-font-size-35{
+    font-size: 35px;
+}
+
+.pa-font-size-40{
+    font-size: 40px;
+}
+
+.pa-font-size-45{
+    font-size: 45px;
+}
+
+.pa-font-size-50{
+    font-size: 50px;
+}
+
+/* Link */
+
+.pa-link{
+    color: inherit;
+}
+
+.pa-link:hover{
+    color: inherit;
+    text-decoration: none;
+}
+
+.pa-clickable-element{
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.pa-input:focus, .pa-input.form-control:focus {
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+ @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+ h1, h2, h3, h4, h5, h6 {
+	 font-family: 'Open Sans', sans-serif;
+	 color: #222;
+	 margin: 0.4em 0;
+}
+ h1 {
+	 font-size: calc(1rem + 1.5vw);
+}
+ h2 {
+	 font-size: calc(0.9rem + 1.2vw);
+}
+ h3 {
+	 font-size: calc(0.8rem + 1.0vw);
+}
+ h4 {
+	 font-size: calc(0.7rem + 0.9vw);
+}
+ h5 {
+	 font-size: calc(0.6rem + 0.8vw);
+}
+ h6 {
+	 font-size: calc(0.5rem + 0.6vw);
+}
+ p {
+	 font-family: 'Source Sans Pro', sans-serif;
+	 font-size: 16px;
+}
+ .p-xs {
+	 font-size: 14px;
+}
+ .form-control {
+	 font-family: 'Source Sans Pro', sans-serif;
+	 font-size: calc(0.7rem + 0.6vw);
+}
+ .navbar-container img {
+	 max-height: 40px;
+}
+ .left-col-container .toggle-ico {
+	 vertical-align: middle;
+	 max-width: 15px;
+}
+ .left-col-container .contact-info-container .button-right {
+	 display: block;
+	 text-align: right;
+}
+ .left-col-container .shipping-methods-container {
+	 margin-top: 25px;
+}
+ .left-col-container .shipping-methods-container p {
+	 font-size: 14px;
+}
+ .left-col-container .payment-btn-group {
+	 text-align: center;
+}
+ .left-col-container .payment-btn-group button {
+	 margin: 4px 2px;
+	 padding: 0.5rem 0.4rem;
+	 font-size: 14px;
+}
+ .left-col-container .payment-btn-group .box {
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+	 align-items: center;
+	 width: 100%;
+	 margin: 1em 0;
+}
+ .left-col-container .payment-btn-group .paypal-logo {
+	 font-family: Verdana, Tahoma;
+	 font-weight: bold;
+	 font-size: 26px;
+}
+ .left-col-container .payment-btn-group .paypal-logo i:first-child {
+	 color: #253b80;
+}
+ .left-col-container .payment-btn-group .paypal-logo i:last-child {
+	 color: #179bd7;
+}
+ .left-col-container .payment-btn-group .paypal-button {
+	 padding: 15px 15px;
+	 border: 1px solid #f93;
+	 border-radius: 5px;
+	 background-image: linear-gradient(#fff0a8, #f9b421);
+	 margin: 0 auto;
+	 display: block;
+	 min-width: 138px;
+	 position: relative;
+}
+ .left-col-container .payment-btn-group .paypal-button-title {
+	 font-size: 14px;
+	 color: #505050;
+	 vertical-align: baseline;
+	 text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);
+}
+ .left-col-container .payment-btn-group .paypal-button .paypal-logo {
+	 display: inline-block;
+	 text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);
+	 font-size: 20px;
+}
+ .left-col-container .sc-bdVaJa {
+	 width: 100%;
+}
+ .left-col-container .sc-bwzfXH {
+	 border: 1px solid #ced4da;
+}
+ .left-col-container .billing-container .button-right {
+	 display: block;
+	 text-align: right;
+	 margin-bottom: 1em;
+}
+ .right-col-container {
+	 background-color: #eee;
+}
+ .right-col-container .cart-details-container h5, .right-col-container .cart-details-container h6, .right-col-container .cart-details-container p, .right-col-container .cart-details-container a {
+	 font-size: 14px;
+}
+ .right-col-container .cart-details-container .media-body {
+	 position: relative;
+	 min-width: 60px;
+	 max-width: 100px;
+	 margin-right: 1em;
+	 margin-bottom: 1em;
+}
+ .right-col-container .cart-details-container .media-count {
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 background-color: #00d2d3;
+	 color: #fff;
+	 border-radius: 50%;
+	 width: 20px;
+	 height: 20px;
+	 text-align: center;
+	 box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 4px 0px;
+}
+ .right-col-container .review-container .star-rate {
+	 display: block;
+	 margin: -4px 0;
+}
+ .right-col-container .review-container .fa-star {
+	 color: #ffc107;
+	 font-size: 0.8em;
+}
+ .right-col-container .review-container .co-verified-buyer span {
+	 font-size: 0.8em;
+}
+ .right-col-container .no-pr {
+	 padding-right: 0;
+	 padding-left: 0;
+}
+ .right-col-container .avatar-container {
+	 padding: 0;
+	 margin-bottom: 1em;
+	 text-align: center;
+}
+ .right-col-container .avatar-container .avatar {
+	 max-width: 80px;
+	 border-radius: 50%;
+	 box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 2px 0px;
+}
+ .footer {
+	 width: 100%;
+	 height: 60px;
+	 line-height: 60px;
+	 background-color: #f5f5f5;
+}
+ .footer p {
+	 margin-bottom: 0;
+}
