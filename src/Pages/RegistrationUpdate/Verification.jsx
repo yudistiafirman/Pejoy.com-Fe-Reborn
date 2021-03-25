@@ -1,12 +1,13 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router'
+import { useHistory, useParams } from 'react-router'
 import Loader from 'react-spinners/BeatLoader'
 import Swal from 'sweetalert2'
 const Verification = () => {
-
+    
     const [loading,SetLoading]=useState(false)
     let {token}=useParams()
+    let history =useHistory()
     useEffect(()=>{
             if(token){
                 onVerifiedEmail(token)
@@ -48,15 +49,15 @@ const Verification = () => {
     }
     return (
         <div className='container' style={{paddingTop : 120}}>
-                        <div class="jumbotron text-center">
-                            <h1 class="display-3">Terima kasih!</h1>
-                        <p class="lead"><strong>Selamat Bergabung Dengan Pejoy.com</strong> silahkan click tombol dibawah untuk pergi ke homepage</p>
+                        <div className="jumbotron text-center">
+                            <h1 className="display-3">Terima kasih!</h1>
+                        <p className="lead"><strong>Selamat Bergabung Dengan Pejoy.com</strong> silahkan click tombol dibawah untuk pergi ke homepage</p>
                         <hr/>
                          
                         <p> Having trouble? <a href="">Contact us</a> </p>
                     
                     <p class="lead">
-                         <a class="btn btn-primary btn-sm" href="http://localhost:3000" role="button">Continue to homepage</a>
+                         <button onClick={()=>history.push('/')} className="btn btn-primary btn-sm" role="button">Continue to homepage</button>
                      </p>
                     </div>
             

@@ -44,7 +44,7 @@ const App = () => {
             <RegisterRoute path='/register' component={RegistrationBaru}/>
             <Route path='/cart' component={Cart}/>
             <Route path='/update-password/:id' component={UpdatePassword} />
-            <Route path='/email-verification/:token' component={EmailVerification} />
+            <PrivateRoute path='/email-verification/:token' component={EmailVerification} />
            
             <Route component={PageNotFound}/> {/* The Default not found component */}
           </Switch>
